@@ -182,3 +182,14 @@ for (var i = 0; i < 10; i++ ) {
 
   console.log(i);
 }
+
+
+// Logical Operators
+
+
+// AND && ==> ALL OPERANDS ARE TRUE ==> TRUE
+
+// OR || ==> Atleast one operand is True
+console.log(true || false);
+
+// NOT ! ==> Not true
