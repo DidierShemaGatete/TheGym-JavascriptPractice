@@ -193,3 +193,24 @@ for (var i = 0; i < 10; i++ ) {
 console.log(true || false);
 
 // NOT ! ==> Not true
+
+
+// IF STATEMENTS
+
+const age = 18;
+
+if (age > 18) {
+  console.log("you're allowed to enter!")
+} else if (age === 18 ) {
+  console.log("you're now allowed to enter")
+} else {
+
+  console.log("youre mot allowed to enter here")
+}
+
+
+// LOOPS
+
+for (var i; i < 10; i++) {
+  console.log(i);
+}
