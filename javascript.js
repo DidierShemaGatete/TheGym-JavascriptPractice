@@ -174,3 +174,11 @@ fetch('https://api.example.com/data')
 
 /*The DOM is a crucial part of web development as it enables interactive and dynamic web pages. It serves as an interface between JavaScript and the HTML document, allowing developers to manipulate the document structure, content, and behavior based on user interactions or other programmatic conditions.*/
 
+
+
+// LOOP
+
+for (var i = 0; i < 10; i++ ) {
+
+  console.log(i);
+}
