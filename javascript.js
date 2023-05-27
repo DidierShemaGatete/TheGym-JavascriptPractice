@@ -369,6 +369,69 @@ Feel free to run this code in an HTML file to see the changes reflected in the D
 
 
 
+  function name(params) {
+    
+  }
 
+
+
+
+// A block of code that performs a task
+
+// Function Declaration (Defining a function)
+
+function name(a, b) {
+  console.log('name')
+
+  return a+b;
+}
+
+
+// Function Call (calling / invoking  / executin a function)
+
+const result = name(2, 3);
+
+console.log(result);
+
+
+                // TYPES OF CALLING A FUNCTION
+
+
+                    // A function declaration 
+                    function name(params) {
+                      // Statements
+                      return
+                    }
+                    // A function expression 
+                    const name = function (params) {
+                      //Statements
+                    
+                      return
+                    }
+
+                    // An arrow function
+
+                    const name = (params) => {
+                      // Statements
+                      return 
+                    }
+                    
+
+
+
+                    // Rock , paper and scissors Game
+                    
+var randomNumber=Math.random()
+
+if (randomNumber >= 0 && randomNumber <= 1/3) {
+  console.log("Rock")
+
+}else if (randomNumber > 1/3 && randomNumber <= 2/3) {
+  console.log("paper")
+
+}else{
+
+  console.log("Scissors")
+}
 
 
