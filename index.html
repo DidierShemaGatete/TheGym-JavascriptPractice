@@ -14,3 +14,73 @@
 </body>
 <script src="javascript.js"></script>
 </html>
+
+
+
+
+<!-- high level javascript task used in web development -->
+
+<form id="myForm" onsubmit="validateForm(event)">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+   <script>
+
+function validateForm(event) {
+  event.preventDefault(); // Prevents the form from submitting
+
+  // Fetch form input values
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  // Perform validation
+  if (name === "" || email === "" || password === "") {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  if (!validateEmail(email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
+  if (password.length < 8) {
+    alert("Password must be at least 8 characters long.");
+    return;
+  }
+
+  // If all validations pass, you can proceed with form submission or further processing
+  // For example, you can submit the form using AJAX or perform additional actions
+
+  // Uncomment the line below if you want to submit the form
+  // document.getElementById("myForm").submit();
+
+  alert("Form submitted successfully!");
+}
+
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+
+   </script>
+  
+
+  <!-- In the above example, the validateForm function is called when the form is submitted. It prevents the default form submission behavior using event.preventDefault(). The function then fetches the input values, performs various validations, and displays appropriate error messages using alert().
+
+The example includes basic validations such as checking for empty fields, validating the email format using a regular expression, and ensuring the password meets a minimum length requirement. You can customize the validation rules and error messages based on your specific requirements.
+
+Remember to place the JavaScript code either in a separate file or inside a <script> tag within your HTML document.
+
+Feel free to adapt and enhance this code snippet based on your specific form and validation needs. -->
