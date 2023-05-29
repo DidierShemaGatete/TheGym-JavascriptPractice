@@ -537,5 +537,37 @@ function add(a, z){
   return a+z
 }
 
-var sum = function add(3, 4);
-console.log(add)
+var sum = function add(a, z)
+
+// Data TYPES RECAP(js has 8 types)
+
+// 1. numbers(int, floats, infinity)
+
+// 2. Strings
+
+// 3. boolean
+
+// 4. Null eg let var = Null
+
+// 5. Undefined eg. let var; you can empty a value by assigning it to undefined .. eg(var=undefined)
+
+// 6. Symbol
+
+// 7. Object
+
+// 8. Bigint (big integer) let x = BigInt
+
+("12345678901123456780");
+
+
+/*extra large or small numbers can be written using exponential notation*/
+
+
+let y = 123e5; //12300000
+
+let x = 145e3; // 0.145
+
+Byte(8-bits), short(16-bits),  int(32-bits), longint(64-bits)
+
+Float(32-bit), double(64-bit)
+
