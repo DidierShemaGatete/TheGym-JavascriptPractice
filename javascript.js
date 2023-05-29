@@ -389,7 +389,7 @@ function name(a, b) {
 
 // Function Call (calling / invoking  / executin a function)
 
-const result = name(2, 3);
+const resultss = name(2, 3);
 
 console.log(result);
 
@@ -435,5 +435,87 @@ if (randomNumber >= 0 && randomNumber <= 1/3) {
 }
 
 
+//function with no parameters
+
+function sayHello() {
+  console.log("Hello!");
+}
+
+// Calling the function
+sayHello();
 
 
+
+// function with parameters
+function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+
+// Calling the function
+greet("John");
+
+
+//function with return value:
+
+function addNumbers(a, b) {
+  return a + b;
+}
+
+// Calling the function and storing the result
+var sum = addNumbers(3, 4);
+console.log(sum);
+
+//anonymous function(assigned to a variable)
+
+var multiply = function(a, b) {
+  return a * b;
+};
+
+// Calling the function
+var result = multiply(5, 6);
+console.log(result);
+
+
+// Arrow function (ES6 syntax)
+
+var divide = (a, b) => {
+  return a / b;
+};
+
+// Calling the function
+var quotient = divide(10, 2);
+console.log(quotient);
+
+
+// function as method
+var person = {
+  name: "Alice",
+  greet: function() {
+    console.log("Hello, " + this.name + "!");
+  }
+};
+
+// Calling the method
+person.greet();
+
+
+// Recursive function
+function factorial(n) {
+  if (n === 0 || n === 1) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+// Calling the function
+var results = factorial(5);
+console.log(result);
+
+
+//immediately Invoked Function Expression (IIFE)
+
+
+(function() {
+  console.log("I'm an IIFE!");
+})();
