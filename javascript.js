@@ -519,3 +519,23 @@ console.log(result);
 (function() {
   console.log("I'm an IIFE!");
 })();
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* 
+const role = func =>({console.log("kari")})  */
+
+
+function role(){
+  console.log("mine")
+}
+
+
+function add(a, z){
+
+  return a+z
+}
+
+var sum = function add(3, 4);
+console.log(add)
