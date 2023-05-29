@@ -571,3 +571,13 @@ Byte(8-bits), short(16-bits),  int(32-bits), longint(64-bits)
 
 Float(32-bit), double(64-bit)
 
+
+
+// Declaration: introduces new variables, classes or functions int js environment
+var x; function sum(){}; class Gym{}
+
+// Statement: controls flow of a program and perfoms condotional operations
+if statements; loop statements
+
+// expression: these are assigned varues and can perform in statements or independetely
+ver x = 5+4;
