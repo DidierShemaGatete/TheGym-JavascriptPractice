@@ -606,6 +606,60 @@ if names ?? "David"; // This means that if the variable names is not assigned a 
 
 
 
+// simple way to write if statement (including elseif)
+
+console.log; root ? "34" console.log("go on") root ? "45" console.log("it's still possible"): console.log("no entrance")
+
+
+//nullish and coleasing operators
+
+let naming = null;
+
+naming ?? "Monday" ;// this means that naming hasnt assigned a value then naming should be "Monday"
+
+switch case, break and continue;
+
+            // BREAK  => this breaks the code iteration when a certain condition is met
+
+if(age > 18 && id === true ) console.log("u're allowed to enter");
+  break;
+
+          // CONTINUE => This continues and jumps the condition value it met
+
+if(date == +15){
+  console.log("it's getting ready for paycheck")
+
+  continue;
+}
+
+
+      // SWITCH CASE
+
+for(i=0, i <= 10 , i++);
+
+switch(i){
+  case 1: console.log(
+    "the first digit")
+    break;
+
+  case 2: console.log(
+    "the second digit")
+    break;
+ 
+  case 3: console.log(
+    "the third digit")
+    break;
+ 
+  case 4: console.log(
+    "the fourth digit")
+    break;
+
+  default: ("invalid num")
+  }
+
+
+
+
 
 
 
