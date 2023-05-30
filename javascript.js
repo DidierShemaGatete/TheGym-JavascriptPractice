@@ -581,3 +581,24 @@ if statements; loop statements
 
 // expression: these are assigned varues and can perform in statements or independetely
 ver x = 5+4;
+
+
+
+// conditonals(another way of writting them)
+
+//when you want to check condition before entering value in variable
+let num = 23;
+
+var condition = num >= 45 ? "Go on" : "So Sad"
+
+num >= 18 ? console.log("ure allowed to enter") : ("ure not allowed to enter");
+
+num >= 18 ? console.log("ure allowed to enter") : num < 16 ? console.log("ure banned to alcohol usage") : ("ure not allowed to enter");
+
+
+
+
+
+
+
+
