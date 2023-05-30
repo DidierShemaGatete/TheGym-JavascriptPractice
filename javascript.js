@@ -596,6 +596,18 @@ num >= 18 ? console.log("ure allowed to enter") : ("ure not allowed to enter");
 num >= 18 ? console.log("ure allowed to enter") : num < 16 ? console.log("ure banned to alcohol usage") : ("ure not allowed to enter");
 
 
+?? //nullish coleasing operator
+
+
+var names = null;
+
+if names ?? "David"; // This means that if the variable names is not assigned a value,
+//assign it a given value "David " (in this case)
+
+
+
+
+
 
 
 
