@@ -595,17 +595,6 @@ num >= 18 ? console.log("ure allowed to enter") : ("ure not allowed to enter");
 
 num >= 18 ? console.log("ure allowed to enter") : num < 16 ? console.log("ure banned to alcohol usage") : ("ure not allowed to enter");
 
-  ?? /* nullish correasing operator */
-
-let names = null;
-
-names ?? "David"; //means that if variable name is empty then assign it David
-
-
-
-
-
-
 
 
 
