@@ -665,13 +665,31 @@ console.log('i')
 }
 
 
+f
 
 
 
+/*functions  */
 
 
+/* function declaration */
+function role(a, b){
+
+  return a ** b
+}
+
+/* function expression */
+
+const role = (a, b) {
+  return a + b
+}
 
 
+/* arrow function  */
+
+const role = (a, b) => {return a + b};
+
+const role = () => return a + b;
 
 
-
+var sum = `${sum + div}`;
