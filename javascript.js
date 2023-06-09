@@ -685,6 +685,23 @@ const role = (a, b) {
 }
 
 
+const house = {
+
+  rooms: 4,
+  kitchen: 2,
+  bath: 3,
+  role: (vacation){
+    console.log(`this house has this.rooms rooms   `)
+  } 
+
+
+}
+
+console.log(house.bath) 
+console
+
+
+
 /* arrow function  */
 
 const role = (a, b) => {return a + b};
