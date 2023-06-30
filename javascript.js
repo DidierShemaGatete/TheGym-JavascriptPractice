@@ -691,7 +691,7 @@ const house = {
   kitchen: 2,
   bath: 3,
   role: (vacation){
-    console.log(`this house has this.rooms rooms   `)
+    console.log(`this house has this.rooms rooms   `)git 
   } 
 
 
