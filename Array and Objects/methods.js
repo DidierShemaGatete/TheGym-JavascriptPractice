@@ -10,7 +10,7 @@ const Car = {
 }
 
 Car.works()
-
+var array = [];
 
 
 
@@ -19,4 +19,76 @@ Car.works()
 
 const arr = Object.values(Car)
 console.log(arr)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
