@@ -11,6 +11,7 @@
 item1; (optional)
 item2; */
 
+
 const arr = [2, 4, 6, 7]
 const splicedArr = arr.splice(1, 0, '3', 4)
 
